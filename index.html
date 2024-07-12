@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone paper scissor | Web Game</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style-script/Game.css" />
+    <link rel="stylesheet" href="style-script/About.css" />
+    <link rel="icon" href="resources/rock-paper-scissors.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="contact">
+        <a href="https://github.com/theakash04/stone-paper-scissor.git" class="github">Get Code</a>
+      </div>
+      <div class="gameSection">
+
+        <div class="gameName">
+          <h3>Rock Paper Scissors</h3>
+          <p>With Basic Bot</p>
+        </div>
+
+        <div class="gameContent">
+          <p>Score</p>
+          <div class="gameScore">
+            <div class="left">
+              <span>0</span>
+              <p>YOU</p>
+              <span id="userChoice"></span>
+            </div>
+            <div class="right">
+              <span>0</span>
+              <p>BOT</p>
+              <span id="botChoice"></span>
+            </div>
+          </div>
+          <div class="result">Start Game</div>
+          <div class="choose">
+            <button class="choice" id="rock">Rock</button>
+            <button class="choice" id="paper">Paper</button>
+            <button class="choice" id="scissors">Scissors</button>
+          </div>
+          <button type="button" class="reset">Reset</button>
+          <div class="gameCount">
+            <p>Game Played :</p>
+            <span>0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="gameAbout">
+      <div class="whatIsThis">
+        <h3>What is this?</h3>
+        <ul>
+          <li>This is a rock Paper scissors game created by <a href="https://www.linkedin.com/in/hs918131/">Harshit Sharma</a></li>
+          <li>This game has a bot which play with the player</li>
+          <li>It was made using <span>HTML</span> <span>CSS</span> and <span>JAVASCRIPT</span></li>
+        </ul>
+      </div>
+      <div class="howToPlay">
+        <h3>How To Play?</h3>
+        <ul>
+          <li>Click on the <span>Rock</span> <span>Paper</span> or <span>Scissors</span> button to make your choice</li>
+          <li>The bot will make its <span>choice</span></li>
+          <li><span>Your</span> and <span>Bot</span> wins will be updated accordingly</li>
+          <li>Both <span>User</span> and <span>Bot</span> choices will be displayed</li>
+          <li>Use <span>Reset</span> button to reset the game and its <span>score</span></li>            
+        </ul>
+      </div>
+      <div class="rule">
+        <h3>Rules</h3>
+      <ul>
+        <li>Rock <span>crushes</span> scissors.</li>
+        <li>Scissors <span>cut</span> paper</li>
+        <li>Paper <span>covers</span> rock</li>
+      </ul>
+      </div>
+      <div class="other">
+       Harshit Sharma
+        <span>Thank you for playing</span>
+      </div>
+    </div>
+
+
+    <script src="style-script/script.js"></script>
+  </body>
+</html>
